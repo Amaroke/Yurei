@@ -3,8 +3,8 @@
     padding-top: 56.25%;
 }
 
-.player {
-    position: fixed;
+.player-wrapper .player {
+    position: absolute;
     top: 0;
     left: 0;
 }
