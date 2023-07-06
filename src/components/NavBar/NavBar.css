@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'Russo_One';
-    /* Nom de la police */
     src: url('../../assets/fonts/Russo_One.ttf') format('truetype');
-    /* Chemin vers le fichier de police */
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +25,6 @@
 .navbar li {
     list-style: none;
     font-size: 25px;
-    font-weight: bold;
     margin-right: 10px;
 }
 
@@ -95,4 +92,28 @@
 
 .social-icon li a:hover img {
     filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #470287;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #470287;
+    transition: width 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+    width: 110%;
 }

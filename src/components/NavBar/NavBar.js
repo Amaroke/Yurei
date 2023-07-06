@@ -15,13 +15,15 @@ const NavBar = () => {
         <nav>
             <ul className="navbar navbar-container">
                 <li>
-                    <Link to="/teams">Teams</Link>
+                    <Link id="teams" to="/teams">
+                        <span className="nav-link">Teams</span>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/streams">Streams</Link>
+                    <Link id="streams" className="nav-link" to="/streams">Streams</Link>
                 </li>
                 <li>
-                    <Link to="/partners">Partners</Link>
+                    <Link id="partners" className="nav-link" to="/partners">Partners</Link>
                 </li>
                 <li className="logo">
                     <Link to="/">
@@ -29,7 +31,7 @@ const NavBar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/about">About Us</Link>
+                    <Link id="about" className="nav-link" to="/about">About Us</Link>
                 </li>
                 <div className="social-icon">
                     <li>
@@ -48,11 +50,6 @@ const NavBar = () => {
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noreferrer" href="https://www.xoose.de/yurei-esports/">
-                            <img src={shop_logo} alt="Shop" />
-                        </a>
-                    </li>
-                    <li>
                         <a target="_blank" rel="noreferrer" href="https://">
                             <img src={twitch_logo} alt="Twitch" />
                         </a>
@@ -60,6 +57,11 @@ const NavBar = () => {
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://">
                             <img src={tiktok_logo} alt="TikTok" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noreferrer" href="https://www.xoose.de/yurei-esports/">
+                            <img src={shop_logo} alt="Shop" />
                         </a>
                     </li>
                 </div>
