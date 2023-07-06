@@ -4,12 +4,16 @@ import "./NavBar.css";
 import logo from "../../assets/img/logo_navbar.jpg";
 import twitter_logo from '../../assets/img/twitter.svg';
 import instagram_logo from '../../assets/img/instagram.svg';
+import youtube_logo from '../../assets/img/youtube.svg';
+import twitch_logo from '../../assets/img/twitch.svg';
+import tiktok_logo from '../../assets/img/tiktok.svg';
+import shop_logo from '../../assets/img/shop.svg';
 
 
 const NavBar = () => {
     return (
         <nav>
-            <ul className="navbar">
+            <ul className="navbar navbar-container">
                 <li>
                     <Link to="/teams">Teams</Link>
                 </li>
@@ -39,23 +43,23 @@ const NavBar = () => {
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noreferrer" href="https://">
-                            <img src={""} alt="X" />
+                        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCDqgQjj8y5EKo7AcXtbuSPg">
+                            <img src={youtube_logo} alt="Youtube" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noreferrer" href="https://www.xoose.de/yurei-esports/">
+                            <img src={shop_logo} alt="Shop" />
                         </a>
                     </li>
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://">
-                            <img src={""} alt="X" />
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" rel="noreferrer" href="https:/">
-                            <img src={""} alt="X" />
+                            <img src={twitch_logo} alt="Twitch" />
                         </a>
                     </li>
                     <li>
                         <a target="_blank" rel="noreferrer" href="https://">
-                            <img src={""} alt="X" />
+                            <img src={tiktok_logo} alt="TikTok" />
                         </a>
                     </li>
                 </div>
