@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  height: 100vh;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -40,37 +41,4 @@ ul {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-button {
-  border: 0;
-  background-color: transparent;
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-  outline: none;
-}
-
-@media (min-width:1700px) {
-  main .container {
-    max-width: 100%;
-    padding: 0 150px;
-  }
-}
-
-p.success {
-  color: green;
-}
-
-p.danger {
-  color: red;
-}
