@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/Yurei/static/css/main.684d6532.css",
-    "main.js": "/Yurei/static/js/main.6db2bfe4.js",
-    "static/js/787.62ed7e42.chunk.js": "/Yurei/static/js/787.62ed7e42.chunk.js",
-    "static/media/logo.jpg": "/Yurei/static/media/logo.fb29fa3c46d01b2e2fa9.jpg",
+    "main.css": "/Yurei/static/css/main.bac654b6.css",
+    "main.js": "/Yurei/static/js/main.091cbd07.js",
+    "static/media/logo_navbar.jpg": "/Yurei/static/media/logo_navbar.f00a2273d217be4a951e.jpg",
     "static/media/instagram.svg": "/Yurei/static/media/instagram.c0b667e3bf6ee2e3876f92e47478f03b.svg",
     "static/media/twitter.svg": "/Yurei/static/media/twitter.b595394e48fc8a6ce6ed1d8f912733b0.svg",
     "index.html": "/Yurei/index.html",
-    "main.684d6532.css.map": "/Yurei/static/css/main.684d6532.css.map",
-    "main.6db2bfe4.js.map": "/Yurei/static/js/main.6db2bfe4.js.map",
-    "787.62ed7e42.chunk.js.map": "/Yurei/static/js/787.62ed7e42.chunk.js.map"
+    "main.bac654b6.css.map": "/Yurei/static/css/main.bac654b6.css.map",
+    "main.091cbd07.js.map": "/Yurei/static/js/main.091cbd07.js.map"
   },
   "entrypoints": [
-    "static/css/main.684d6532.css",
-    "static/js/main.6db2bfe4.js"
+    "static/css/main.bac654b6.css",
+    "static/js/main.091cbd07.js"
   ]
 }
