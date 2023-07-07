@@ -115,5 +115,37 @@
 }
 
 .nav-link:hover::after {
-    width: 110%;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    font-size: 20px;
+    border: 2px solid #470287;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-item {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
 }

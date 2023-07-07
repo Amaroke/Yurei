@@ -13,7 +13,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Video />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/teams/main" element={<Teams />} />
+          <Route path="/teams/academy" element={<Teams />} />
         </Routes>
         <Footer />
       </Router>

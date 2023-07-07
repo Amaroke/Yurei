@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./NavBar.css";
 import logo from "../../assets/img/logo_navbar.jpg";
@@ -11,13 +11,52 @@ import shop_logo from '../../assets/img/shop.svg';
 
 
 const NavBar = () => {
+
+    const [isDropdownHovered, setIsDropdownHovered] = useState(false);
+    const [isChildHovered, setIsChildHovered] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsDropdownHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        if (!isChildHovered) {
+            setIsDropdownHovered(false);
+        }
+    };
+
+    const handleChildMouseEnter = () => {
+        setIsChildHovered(true);
+    };
+
+    const handleChildMouseLeave = () => {
+        setIsChildHovered(false);
+        setIsDropdownHovered(false);
+    };
+
     return (
         <nav>
             <ul className="navbar navbar-container">
-                <li>
-                    <Link id="teams" to="/teams">
-                        <span className="nav-link">Teams</span>
-                    </Link>
+                <li className={`dropdown ${isDropdownHovered ? 'open' : ''}`}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave} >
+                    <span className="nav-link dropdown-toggle"
+                        data-toggle="dropdown" >
+                        Teams
+                    </span>
+                    <div className="dropdown-menu">
+                        <div className="dropdown-item-group" onMouseEnter={handleChildMouseEnter}
+                            onMouseLeave={handleChildMouseLeave} >
+                            <Link className="dropdown-item"
+                                to="/teams/main" >
+                                Main
+                            </Link>
+                            <Link className="dropdown-item whitebar"
+                                to="/teams/academy" >
+                                Academy
+                            </Link>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <Link id="streams" className="nav-link" to="/streams">Streams</Link>
