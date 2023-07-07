@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Yurei/static/css/main.070b7b86.css",
+    "main.css": "/Yurei/static/css/main.11415369.css",
     "main.js": "/Yurei/static/js/main.800b827b.js",
     "static/media/profil_background.png": "/Yurei/static/media/profil_background.9deddbac182af1827425.png",
     "static/media/Russo_One.ttf": "/Yurei/static/media/Russo_One.76b69dd52622fb1a6bf0.ttf",
@@ -12,11 +12,11 @@
     "static/media/twitch.svg": "/Yurei/static/media/twitch.ac576f59c483840a64804cd565ea0521.svg",
     "static/media/youtube.svg": "/Yurei/static/media/youtube.9962c36d646dea679e494b4c81d6ff24.svg",
     "index.html": "/Yurei/index.html",
-    "main.070b7b86.css.map": "/Yurei/static/css/main.070b7b86.css.map",
+    "main.11415369.css.map": "/Yurei/static/css/main.11415369.css.map",
     "main.800b827b.js.map": "/Yurei/static/js/main.800b827b.js.map"
   },
   "entrypoints": [
-    "static/css/main.070b7b86.css",
+    "static/css/main.11415369.css",
     "static/js/main.800b827b.js"
   ]
 }
