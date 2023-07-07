@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Yurei/static/css/main.cdaef065.css",
-    "main.js": "/Yurei/static/js/main.800b827b.js",
+    "main.css": "/Yurei/static/css/main.87c74f7b.css",
+    "main.js": "/Yurei/static/js/main.04f0dbb2.js",
     "static/media/profil_background.png": "/Yurei/static/media/profil_background.9deddbac182af1827425.png",
     "static/media/Russo_One.ttf": "/Yurei/static/media/Russo_One.76b69dd52622fb1a6bf0.ttf",
     "static/media/logo_navbar.jpg": "/Yurei/static/media/logo_navbar.f00a2273d217be4a951e.jpg",
@@ -12,11 +12,11 @@
     "static/media/twitch.svg": "/Yurei/static/media/twitch.ac576f59c483840a64804cd565ea0521.svg",
     "static/media/youtube.svg": "/Yurei/static/media/youtube.9962c36d646dea679e494b4c81d6ff24.svg",
     "index.html": "/Yurei/index.html",
-    "main.cdaef065.css.map": "/Yurei/static/css/main.cdaef065.css.map",
-    "main.800b827b.js.map": "/Yurei/static/js/main.800b827b.js.map"
+    "main.87c74f7b.css.map": "/Yurei/static/css/main.87c74f7b.css.map",
+    "main.04f0dbb2.js.map": "/Yurei/static/js/main.04f0dbb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdaef065.css",
-    "static/js/main.800b827b.js"
+    "static/css/main.87c74f7b.css",
+    "static/js/main.04f0dbb2.js"
   ]
 }
