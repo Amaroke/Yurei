@@ -70,7 +70,7 @@ const NavBar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link id="about" className="nav-link" to="/about">About Us</Link>
+                    <Link id="about" className="nav-link" to="/aboutus">About Us</Link>
                 </li>
                 <div className="social-icon">
                     <li>
@@ -89,12 +89,12 @@ const NavBar = () => {
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noreferrer" href="https://">
+                        <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/YureiEsports">
                             <img src={twitch_logo} alt="Twitch" />
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noreferrer" href="https://">
+                        <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@yurei.esports">
                             <img src={tiktok_logo} alt="TikTok" />
                         </a>
                     </li>
