@@ -7,9 +7,8 @@ const PartnersPage = () => {
 
     return (
         <div className="partners-page">
-            <h1>Partners</h1>
 
-            <p>No partners yet. Contact us if interested.</p>
+            <p>No partners yet. Contact us if interested.<br />fabioyureiesport@gmail.com</p>
 
         </div>
     );
