@@ -37,40 +37,42 @@ const NavBar = () => {
     return (
         <nav>
             <ul className="navbar navbar-container">
-                <li className={`dropdown ${isDropdownHovered ? 'open' : ''}`}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave} >
-                    <span className="nav-link dropdown-toggle"
-                        data-toggle="dropdown" >
-                        Teams
-                    </span>
-                    <div className="dropdown-menu">
-                        <div className="dropdown-item-group" onMouseEnter={handleChildMouseEnter}
-                            onMouseLeave={handleChildMouseLeave} >
-                            <Link className="dropdown-item"
-                                to="/teams/main" >
-                                Main
-                            </Link>
-                            <Link className="dropdown-item whitebar"
-                                to="/teams/academy" >
-                                Academy
-                            </Link>
+                <div className="navbar-firstelem">
+                    <li className={`dropdown ${isDropdownHovered ? 'open' : ''}`}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave} >
+                        <span className="nav-link dropdown-toggle"
+                            data-toggle="dropdown" >
+                            Teams
+                        </span>
+                        <div className="dropdown-menu">
+                            <div className="dropdown-item-group" onMouseEnter={handleChildMouseEnter}
+                                onMouseLeave={handleChildMouseLeave} >
+                                <Link className="dropdown-item"
+                                    to="/teams/main" >
+                                    Main
+                                </Link>
+                                <Link className="dropdown-item whitebar"
+                                    to="/teams/academy" >
+                                    Academy
+                                </Link>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <Link id="streams" className="nav-link" to="/streams">Streams</Link>
-                </li>
-                <li>
-                    <Link id="partners" className="nav-link" to="/partners">Partners</Link>
-                </li>
+                    </li>
+                    <li>
+                        <Link id="streams" className="nav-link" to="/streams">Streams</Link>
+                    </li>
+                    <li>
+                        <Link id="partners" className="nav-link" to="/partners">Partners</Link>
+                    </li>
+                </div>
                 <li className="logo">
                     <Link to="/">
                         <img src={logo} alt="logo" />
                     </Link>
                 </li>
                 <li>
-                    <Link id="about" className="nav-link" to="/aboutus">About Us</Link>
+                    <Link id="about" className="navbar-about nav-link" to="/aboutus">About Us</Link>
                 </li>
                 <div className="social-icon">
                     <li>
