@@ -1,12 +1,23 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import thresh from "../../assets/videos/thresh.mp4";
 
 function Video() {
-    return (
+  return (
     <div className="player-wrapper">
-        <ReactPlayer url="https://www.youtube.com/watch?v=hQf2rwzsnFM" playing muted width="100%" height="92vh" className="player"/>
+      <div className="player">
+        <ReactPlayer
+          url={thresh}
+          playing
+          muted
+          loop
+          width="100%"
+          height="100%"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
     </div>
-    );
+  );
 }
 
 export default Video;
