@@ -2,16 +2,22 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import Video from './components/Video/Video';
-import {BrowserRouter} from 'react-router-dom';
+import Teams from './components/Teams/Teams';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+
+      <Router basename='/Yurei'>
         <NavBar />
-        <Video />
+        <Routes>
+          <Route path="/" element={<Video />} />
+          <Route path="/teams" element={<Teams />} />
+        </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
+
     </div>
   );
 }
