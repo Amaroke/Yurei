@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Yurei/static/css/main.22128f89.css",
-    "main.js": "/Yurei/static/js/main.52937e2b.js",
-    "static/media/thresh.mp4": "/Yurei/static/media/thresh.f750ac1b5897066c29a2.mp4",
+    "main.css": "/Yurei/static/css/main.440d947f.css",
+    "main.js": "/Yurei/static/js/main.18c64813.js",
+    "static/media/yurei_frontpage_background.png": "/Yurei/static/media/yurei_frontpage_background.6971b7b6009e4ded0956.png",
     "static/media/profil_background.png": "/Yurei/static/media/profil_background.9deddbac182af1827425.png",
-    "static/media/Russo_One.ttf": "/Yurei/static/media/Russo_One.76b69dd52622fb1a6bf0.ttf",
-    "static/media/logo_navbar.jpg": "/Yurei/static/media/logo_navbar.f00a2273d217be4a951e.jpg",
+    "static/media/Morganite-Black.ttf": "/Yurei/static/media/Morganite-Black.65cfdac8d55bb1a55eac.ttf",
+    "static/media/logo_navbar.png": "/Yurei/static/media/logo_navbar.2714b88a222921b40806.png",
     "static/media/instagram.svg": "/Yurei/static/media/instagram.c0b667e3bf6ee2e3876f92e47478f03b.svg",
     "static/media/tiktok.svg": "/Yurei/static/media/tiktok.f816e14ef6892de341670906e33d8e6c.svg",
     "static/media/twitter.svg": "/Yurei/static/media/twitter.b595394e48fc8a6ce6ed1d8f912733b0.svg",
@@ -13,11 +13,11 @@
     "static/media/twitch.svg": "/Yurei/static/media/twitch.ac576f59c483840a64804cd565ea0521.svg",
     "static/media/youtube.svg": "/Yurei/static/media/youtube.9962c36d646dea679e494b4c81d6ff24.svg",
     "index.html": "/Yurei/index.html",
-    "main.22128f89.css.map": "/Yurei/static/css/main.22128f89.css.map",
-    "main.52937e2b.js.map": "/Yurei/static/js/main.52937e2b.js.map"
+    "main.440d947f.css.map": "/Yurei/static/css/main.440d947f.css.map",
+    "main.18c64813.js.map": "/Yurei/static/js/main.18c64813.js.map"
   },
   "entrypoints": [
-    "static/css/main.22128f89.css",
-    "static/js/main.52937e2b.js"
+    "static/css/main.440d947f.css",
+    "static/js/main.18c64813.js"
   ]
 }
