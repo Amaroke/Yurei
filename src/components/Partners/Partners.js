@@ -1,16 +1,13 @@
-// PartnersPage.js
-
 import React from 'react';
-import './Partners.css';
 
 const PartnersPage = () => {
 
     return (
-        <div className="partners-page">
-
-            <p>No partners yet. Contact us if interested.<br />fabioyureiesport@gmail.com</p>
-
+        <div className="streams-page flex flex-col items-center justify-center h-[88svh] font-Morganite pb-20">
+            <p className="text-4xl font-semibold text-center">No partners yet. Contact us if interested.</p>
+            <p className="text-center text-4xl font-semibold">fabioyureiesport@gmail.com</p>
         </div>
+
     );
 };
 

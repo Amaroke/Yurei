@@ -1,13 +1,9 @@
-// PartnersPage.js
-
 import React from 'react';
-import './Stream.css';
 
 const PartnersPage = () => {
-
     return (
-        <div className="streams-page">
-            <h1>Not yet implemented.</h1>
+        <div className="streams-page flex items-center justify-center h-[88svh] font-Morganite pb-20">
+            <h1 className="text-4xl font-semibold">Not yet implemented.</h1>
         </div>
     );
 };

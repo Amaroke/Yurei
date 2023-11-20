@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
-import Video from './components/Video/Video';
+import Home from './components/Home/Home';
 import Teams from './components/Teams/Teams';
 import Partners from './components/Partners/Partners';
 import Streams from './components/Streams/Streams';
@@ -15,7 +15,7 @@ function App() {
       <Router basename='/Yurei'>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Video />} />
+          <Route path="/" element={<Home />} />
           <Route path="/teams/main" element={<Teams />} />
           <Route path="/teams/academy" element={<Teams />} />
           <Route path="/partners" element={<Partners />} />
